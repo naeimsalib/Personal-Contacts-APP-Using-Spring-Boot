@@ -17,3 +17,7 @@ When you click on Add New Contact<br />
 
 Also the First Name, Last Name, and email are Data protected and Required<br />
 For the email, the Application Checks if the Email is formated Correctly with the '@' sign<br />
+![Data-Handler-email](https://user-images.githubusercontent.com/11530670/148001762-cd40f7bf-4d7c-414a-9d28-805964743bc2.png)
+<br />
+![Data-Handler-FirstName](https://user-images.githubusercontent.com/11530670/148001778-ab2083a1-fcde-4ba9-a5b7-f6848d9ff093.png)
+<br />
