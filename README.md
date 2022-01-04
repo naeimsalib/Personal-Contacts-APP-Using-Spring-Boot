@@ -21,3 +21,12 @@ For the email, the Application Checks if the Email is formated Correctly with th
 <br />
 ![Data-Handler-FirstName](https://user-images.githubusercontent.com/11530670/148001778-ab2083a1-fcde-4ba9-a5b7-f6848d9ff093.png)
 <br />
+
+and Finally when the contact is Added, You are Presented with a Message Confirming that the Contact was Saved Succesfully
+![List-After-Adding-New-Contact](https://user-images.githubusercontent.com/11530670/148001840-7c692a02-037b-484a-a1f4-15e715183244.png)
+
+and Depending on What You do you get Different Confirmation Message< br />
+Like for example when you update a new contact <br />
+![Succesfully-Updated-Contact](https://user-images.githubusercontent.com/11530670/148001888-345b28ae-8ea8-4123-bd39-0ce469879372.png)
+
+
