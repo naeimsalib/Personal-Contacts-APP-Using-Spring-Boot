@@ -10,3 +10,10 @@ You will be able to see all your Contacts List were you can add new Contact , Ed
 
 
 ![Contacts-List](https://user-images.githubusercontent.com/11530670/148001611-423a27c4-eee5-4874-b167-09a3b41f12be.png)
+
+When you click on Add New Contact<br />
+
+![Adding a Contact](https://user-images.githubusercontent.com/11530670/148001683-d32f9881-11d2-4915-b943-fa9d4c28243d.png)
+
+Also the First Name, Last Name, and email are Data protected and Required<br />
+For the email, the Application Checks if the Email is formated Correctly with the '@' sign<br />
