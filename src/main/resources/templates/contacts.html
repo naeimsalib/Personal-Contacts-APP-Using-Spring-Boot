@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+</head>
+<body>
+<div class="container-fluid text-center">
+    <div>
+        <h2>Contacts List</h2>
+    </div>
+    <div class="m-2">
+        <a class="h3" th:href="@{/contacts/new}">Add New Contact</a>
+    </div>
+
+    <div th:if="${message}" class="alert alert-success text-center">
+        [[${message}]]
+    </div>
+
+    <div>
+        <table class="table table-bordered">
+            <thead>
+               <tr>
+                   <th>ID</th>
+                   <th>First Name</th>
+                   <th>Last Name</th>
+                   <th>Phone Number</th>
+                   <th>E-Mail</th>
+                   <th>Address</th>
+               </tr>
+            </thead>
+            <tbody>
+            <th:block th:each="Contacts : ${listContacts}">
+                <tr>
+                    <td> [[${Contacts.id}]]</td>
+                    <td> [[${Contacts.first_name}]]</td>
+                    <td> [[${Contacts.last_name}]]</td>
+                    <td> [[${Contacts.phone_number}]]</td>
+                    <td> [[${Contacts.email}]]</td>
+                    <td> [[${Contacts.address}]]</td>
+                    <td>
+                         <a class="h4 mr-3" th:href="@{'/contacts/edit/' + ${Contacts.id}}">Edit</a>
+                        <a class="h4 mr-3" th:href="@{'/contacts/delete/' + ${Contacts.id}}">Delete</a>
+                    </td>
+                </tr>
+            </th:block>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
